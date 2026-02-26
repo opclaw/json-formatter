@@ -162,18 +162,6 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Ad Banner Top */}
-      <div className={styles.adBanner}>
-        <ins
-          className="adsbygoogle"
-          style={{ display: 'block', minHeight: '90px' }}
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-          data-ad-slot="TOP_BANNER"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
-      </div>
-
       {/* Hero Section */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
