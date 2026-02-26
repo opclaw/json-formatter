@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   description: 'Format, validate, and beautify JSON data online. Free JSON formatter with syntax highlighting, tree view, and error detection.',
   keywords: ['json formatter', 'json validator', 'json beautifier', 'json parser', 'format json', 'validate json'],
   authors: [{ name: 'JSON Formatter' }],
+  alternates: {
+    canonical: 'https://jsonformatter.vercel.app',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -20,11 +23,18 @@ export const metadata: Metadata = {
     siteName: 'JSON Formatter',
     title: 'JSON Formatter & Validator — Free Online Tool',
     description: 'Format, validate, and beautify JSON data online.',
+    images: [{
+      url: '/og-image.png',
+      width: 1200,
+      height: 630,
+      alt: 'JSON Formatter - Free Online Tool',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'JSON Formatter & Validator',
     description: 'Format, validate, and beautify JSON data online.',
+    images: ['/og-image.png'],
   },
   robots: { index: true, follow: true },
 }
