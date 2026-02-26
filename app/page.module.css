@@ -33,6 +33,14 @@
   font-size: 2rem;
 }
 
+.logoTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+  display: block;
+}
+
 .logo h1 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -69,6 +77,55 @@
   padding: 1rem;
   display: flex;
   justify-content: center;
+}
+
+/* Hero Section */
+.hero {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 4rem 1.5rem;
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroIcon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.heroDescription {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+  
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .heroDescription {
+    font-size: 1rem;
+  }
 }
 
 /* Main */

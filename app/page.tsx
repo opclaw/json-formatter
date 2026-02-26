@@ -150,7 +150,7 @@ export default function Home() {
           <div className={styles.logo}>
             <span className={styles.logoIcon}>🔧</span>
             <div>
-              <h1>JSON Formatter</h1>
+              <span className={styles.logoTitle}>JSON Formatter</span>
               <p>Format, validate &amp; beautify JSON</p>
             </div>
           </div>
@@ -173,6 +173,15 @@ export default function Home() {
           data-full-width-responsive="true"
         />
       </div>
+
+      {/* Hero Section */}
+      <section className={styles.hero}>
+        <div className={styles.heroContent}>
+          <span className={styles.heroIcon}>🔧</span>
+          <h1 className={styles.heroTitle}>JSON Formatter</h1>
+          <p className={styles.heroDescription}>Format, validate & beautify JSON data online. Free tool with syntax highlighting.</p>
+        </div>
+      </section>
 
       {/* Main Tool */}
       <main id="tool" className={styles.main}>
