@@ -220,7 +220,7 @@ export default function Home() {
             <textarea
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Paste your JSON here...&#10;{&#10;  \"key\": \"value\"&#10;}"
+              placeholder={`Paste your JSON here...\n{\n  "key": "value"\n}`}
               className={`${styles.textarea} ${error ? styles.textareaError : ''}`}
               spellCheck={false}
             />
