@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react'
 import styles from './page.module.css'
+import DonationButton from './components/DonationButton'
 
 interface Stats {
   lines: number
@@ -345,6 +346,9 @@ export default function Home() {
             <a href="/privacy">Privacy</a>
             <a href="/terms">Terms</a>
             <a href="/contact">Contact</a>
+          </div>
+          <div className={styles.donationWrapper} style={{ marginTop: '1rem' }}>
+            <DonationButton username="smartok" />
           </div>
         </div>
       </footer>
